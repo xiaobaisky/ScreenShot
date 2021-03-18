@@ -13,6 +13,7 @@ jobs:
     steps:
     - name: Download
       run: |
+        curl https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/noanimate/https://<www.hai2020.cn>/ -o <www.hai2020.cn>.jpg
         curl https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/noanimate/https://akilar.top/ -o akilar.top.jpg
         curl https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/noanimate/https://blog.vanxnf.top/ -o blog.vanxnf.top.jpg
         curl https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/noanimate/https://zfe.one/ -o zfe.one.jpg
@@ -65,7 +66,6 @@ jobs:
         curl https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/noanimate/https://www.nesxc.com/ -o www.nesxc.com.jpg
         curl https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/noanimate/https://vino.run/ -o vino.run.jpg
         curl https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/noanimate/https://chen-shang.top/ -o chen-shang.top.jpg
-
         curl https://purge.jsdelivr.net/gh/xiaobaisky/ScreenShot@gh-pages/*.*
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
