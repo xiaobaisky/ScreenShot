@@ -14,6 +14,7 @@ jobs:
     - name: Download
       run: |
         curl https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/noanimate/https://www.hai2020.cn/ -o www.hai2020.cn.jpg
+        curl https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/noanimate/https://blog.cyfan.top/ -o blog.cyfan.top.jpg
         curl https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/noanimate/https://akilar.top/ -o akilar.top.jpg
         curl https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/noanimate/https://blog.daliansky.net/ -o blog.daliansky.net.jpg
         curl https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/noanimate/https://zfe.space/ -o zfe.space.jpg
